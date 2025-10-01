@@ -23,9 +23,11 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center font-bold text-primary-foreground text-xl transition-transform group-hover:scale-110">
-              M
-            </div>
+            <img
+              src="/logo.svg"
+              alt="Mila Services Logo"
+              className="w-10 h-10 transition-transform group-hover:scale-110"
+            />
             <span className="text-xl font-bold">Mila Services</span>
           </Link>
 
